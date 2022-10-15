@@ -1,4 +1,5 @@
 - 👋 Hi, I’m @mrlukyman
+
 I am  a computer science student always exploring new technologies and possibilities.
 On my profile you can find my school work as well as projects I've been working on during my free time.
 I am currently learning Solidity and web3.js and trying out GraphQL with express, prisma and apollo server as well.
