@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @mrlukyman
 
-I am  a computer science student always exploring new technologies and possibilities.
-On my profile you can find my school work as well as projects I've been working on during my free time.
-I am currently learning Solidity and web3.js and trying out GraphQL with express, prisma and apollo server as well.
-
-<!---
-mrlukyman/mrlukyman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<p align="center">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api?username=mrlukyman&show_icons=true&count_private=true&theme=dark&hide_border=true&hide=issues,contribs&bg_color=00000000">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=mrlukyman&layout=compact&hide_border=true&theme=dark&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php">
+  <img src ="https://github-readme-streak-stats.herokuapp.com?user=mrlukyman&theme=dark&hide_border=true&background=FFFFFF00">
+</p>
