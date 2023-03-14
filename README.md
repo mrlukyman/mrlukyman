@@ -6,12 +6,12 @@
 
     👋 Hi, I’m @mrlukyman
 
-      👨‍💻 CS student exploring new 🌐 tech and possibilities
+      👨‍💻 CS student exploring new tech and possibilities
 
-      🔍 Always on the lookout for the latest and greatest 🚀
+      🔍 Always on the lookout for the latest and greatest
 
-      🎶 Passionate about 🎧 music
+      🎶 Passionate about music
 
-      ☕️ Fuelled by ☕️
+      ☕ Fuelled by coffee
 
       🎮 Enjoys gaming in free time
