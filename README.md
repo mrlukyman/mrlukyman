@@ -1,54 +1,37 @@
-<h2 align="center">Hi 👋! My name is Lukas and I'm a Software developer, from Slovakia.</h2>
+# Lukáš Haring
 
-###
+**Software engineer building web, mobile, and desktop applications.**
 
-<p align="center">
-  <img height="50%" width="auto" src="https://github-readme-stats.vercel.app/api?username=mrlukyman&show_icons=true&count_private=true&theme=codeSTACKr&hide_border=true&hide=issues,contribs&bg_color=00000000">
-  <img height="50%" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrlukyman&layout=compact&hide_border=true&theme=codeSTACKr&count_private=true&bg_color=00000000&langs_count=6&hide=liquid">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=mrlukyman&theme=codeSTACKr&count_private=true&hide_border=true&background=FFFFFF00">
-</p>
+Based in Copenhagen. I work across frontend and backend development, from understanding a problem and designing the interface to implementation, testing, and release. I'm also a musician and a co-founder of [yibe](https://yibe.fm), a personalised music streaming project.
 
-###
+[LinkedIn](https://www.linkedin.com/in/lukasharing/) · [Open-source contribution](https://github.com/flutter-webrtc/flutter-webrtc/pull/1854) · [HunterLab work account](https://github.com/lukasharing-hl)
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="30" alt="vim logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="30" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
-</div>
+## What I work on
 
-###
+- **Mobile and web at Digital Fireworks:** React Native and Expo apps, native platform integrations, Next.js applications, backend services, and release automation.
+- **Desktop and instrument software at HunterLab:** Flutter applications, browser-based remote viewing and control with WebRTC, Android camera integration, and kiosk-mode device settings.
+- **Full-stack delivery:** previously built a React and Electron desktop application at Continental, working directly with the client on requirements and feedback.
 
-<div align="center">
-  <a href="https://www.instagram.com/lukasharing28/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://discordapp.com/users/174913233348460544" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/lukasharing/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+## Selected public work
 
+| Project | What it explores | Stack |
+| --- | --- | --- |
+| [Spotify → Apple Music](https://github.com/mrlukyman/spotify2applemusic) | A macOS utility that redirects Spotify links to Apple Music through a background shortcut. | Shell, macOS Shortcuts, Finicky |
+| [NFTSwap](https://github.com/mrlukyman/NFTSwap) | A full-stack prototype connecting a trading interface, GraphQL API, relational data model, and wallet integrations. | TypeScript, React, Apollo, Prisma, PostgreSQL |
+| [Space Explorer](https://github.com/mrlukyman/space-explorer) | An educational AR prototype for exploring space-themed 3D models. | SwiftUI, ARKit, RealityKit |
+| [Dijkstra visualiser](https://github.com/mrlukyman/dijkstra-algorithm-react) | An animated grid-based pathfinding experiment. | TypeScript, React |
 
-    👋 Hi, I’m @mrlukyman
+## Open source
 
-      👨‍💻 CS student exploring new tech and possibilities
+**[Merged: fix screen-capture orientation in Flutter WebRTC](https://github.com/flutter-webrtc/flutter-webrtc/pull/1854)**
 
-      🔍 Always on the lookout for the latest and greatest
+Fixed orientation detection on Android devices whose natural orientation is landscape, using display dimensions instead of rotation assumptions. The contribution includes testing notes for a 1280 × 800 embedded display.
 
-      🎶 Passionate about music
+## Toolkit
 
-      ☕ Fuelled by coffee
+- **Web:** TypeScript, React, Next.js
+- **Mobile and desktop:** React Native, Expo, Flutter, Dart, Electron, Kotlin
+- **Backend and data:** Convex, GraphQL, Supabase, Firebase, Prisma, PostgreSQL
+- **Delivery:** Git, CI/CD, App Store and Google Play releases
 
-      🎮 Enjoys gaming in free time
+Interested in software engineering opportunities where I can contribute across the stack and take responsibility for getting useful products into people's hands. [Connect with me on LinkedIn](https://www.linkedin.com/in/lukasharing/).
