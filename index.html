@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#18222f">
+<meta name="description" content="Lukáš Haring — software engineer, musician, and co-founder of yibe. A little personal stereo for my projects.">
+<title>LUKAS.FM — Code + Music</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%2318222f'/%3E%3Cpath d='M22 4L8 23h11l-3 13 17-22H22z' fill='%23f4ae50'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="player.css">
+<script src="player.js" defer></script>
+</head>
+<body data-skin="vice">
+<dialog id="boot" aria-labelledby="boot-title">
+  <div class="boot-screen">
+    <h2 id="boot-title">**** LUKAS 64 BASIC V2 ****</h2>
+    <p class="boot-memory">CODE + MUSIC SYSTEM<br>PERSONAL STEREO READY</p>
+    <p>READY.</p>
+    <p class="boot-command">LOAD "LUKAS.FM"<span class="cursor" aria-hidden="true">█</span></p>
+    <button id="boot-play" autofocus>PRESS PLAY ON TAPE</button>
+    <p class="boot-note">↳ starts an original synthesized loop</p>
+    <button id="boot-skip">SKIP INTRO / OPEN WITHOUT SOUND →</button>
+  </div>
+</dialog>
+<main>
+<header class="intro"><a href="https://github.com/mrlukyman" class="back">← GITHUB / MR LUKYMAN</a><div class="skin-picker" role="group" aria-label="Player colour scheme"><button id="skin-vice" aria-pressed="true">VICE</button><button id="skin-classic" aria-pressed="false">CLASSIC</button></div></header>
+<section class="player" aria-label="LUKAS.FM project player">
+<div class="titlebar"><span class="bolt" aria-hidden="true">ϟ</span><h1>LUKAS.FM <span>/ PERSONAL STEREO</span></h1><button id="compact" class="tiny" aria-label="Collapse project details" aria-expanded="true" aria-controls="project-details">−</button><a class="tiny" href="https://github.com/mrlukyman" aria-label="Return to GitHub">×</a></div>
+<div class="decks">
+<div class="main-deck">
+<div class="screen">
+<div class="screen-top"><span id="status">READY</span><span>STEREO</span></div>
+<div id="pixel-title" class="pixel-title" aria-label="LUKAS.FM"></div>
+<p class="subtitle">CODE + MUSIC</p>
+<canvas id="scope" width="900" height="130" aria-label="Audio spectrum visualizer"></canvas>
+<div class="screen-bottom"><span>WEB / MOBILE / DESKTOP</span><span id="time">00:00</span></div>
+</div>
+<div class="transport">
+<div class="buttons">
+<button id="previous" aria-label="Previous project" title="Previous project"><svg viewBox="0 0 24 24"><path d="M5 4v16M19 4L7 12l12 8Z"/></svg></button>
+<button id="play" aria-label="Play original chiptune" title="Play original chiptune"><svg viewBox="0 0 24 24"><path d="M5 3v18l15-9Z"/></svg></button>
+<button id="pause" aria-label="Pause" title="Pause"><svg viewBox="0 0 24 24"><path d="M7 4v16M17 4v16" stroke-width="5"/></svg></button>
+<button id="stop" aria-label="Stop" title="Stop"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4Z"/></svg></button>
+<button id="next" aria-label="Next project" title="Next project"><svg viewBox="0 0 24 24"><path d="M19 4v16M5 4l12 8-12 8Z"/></svg></button>
+</div>
+<label class="volume"><span>VOL</span><input id="volume" type="range" min="0" max="100" value="20" aria-label="Volume"><output id="volume-value">20%</output></label>
+</div>
+<div class="deck-footer"><span id="hint">PRESS PLAY · ORIGINAL CHIPTUNE</span><button id="shuffle">SHUFFLE</button></div>
+</div>
+<aside class="playlist"><div class="module-title">PLAYLIST / SELECTED WORK</div><ol id="tracks" aria-label="Select a project"></ol><div class="playlist-footer">06 TRACKS <span>CODE + EXPERIMENTS</span></div></aside>
+</div>
+<section id="project-details" class="details" aria-label="Selected project">
+<div class="track-number" id="track-number" aria-hidden="true">01</div>
+<div class="track-copy"><div class="eyebrow" id="category"></div><h2 id="project-title"></h2><p id="description"></p><div class="tags" id="tags"></div><a id="project-link" class="project-link" href="https://yibe.fm">OPEN PROJECT ↗</a></div>
+</section>
+<div class="statusbar"><span><i aria-hidden="true"></i> LUKÁŠ HARING / SOFTWARE ENGINEER</span><a href="https://www.linkedin.com/in/lukasharing/">LET'S TALK ↗</a></div>
+</section>
+<footer class="notes"><p>A little personal stereo for things I've built.<br>Pick a project. Press play. Each one has its own original synthesized loop.</p><p>Space: play / pause · ← →: change project<br>No autoplay. No tracking. Just code and a few oscillators.<br><button id="replay-intro">REWIND THE INTRO ↺</button></p></footer>
+<noscript><p>This player needs JavaScript. <a href="https://github.com/mrlukyman">Browse all projects on GitHub instead.</a></p></noscript>
+<div id="announcement" class="sr-only" role="status"></div>
+</main>
+</body>
+</html>
