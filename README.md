@@ -1,37 +1,46 @@
-# Lukáš Haring
+<a href="https://mrlukyman.github.io/mrlukyman/">
+  <img src="assets/player.svg" width="100%" alt="LUKAS.FM — animated retro project player. Click to launch the interactive player." />
+</a>
 
-**Software engineer building web, mobile, and desktop applications.**
+<p align="center"><a href="https://mrlukyman.github.io/mrlukyman/"><strong>▶ Launch the interactive player</strong></a> · pick a project, play a little chiptune, turn it up.</p>
 
-Based in Copenhagen. I work across frontend and backend development, from understanding a problem and designing the interface to implementation, testing, and release. I'm also a musician and a co-founder of [yibe](https://yibe.fm), a personalised music streaming project.
+# Hey, I'm Lukáš.
 
-[LinkedIn](https://www.linkedin.com/in/lukasharing/) · [Open-source contribution](https://github.com/flutter-webrtc/flutter-webrtc/pull/1854) · [HunterLab work account](https://github.com/lukasharing-hl)
+**Software engineer in Copenhagen. Musician. Co-founder of [yibe](https://yibe.fm).**
 
-## What I work on
+I build web, mobile, and desktop apps, along with the backends that keep them running. My work ranges from consumer apps to software for scientific instruments. Music shows up in my side projects, too: a streaming project, a link-switching utility, and now this slightly nostalgic corner of GitHub.
 
-- **Mobile and web at Digital Fireworks:** React Native and Expo apps, native platform integrations, Next.js applications, backend services, and release automation.
-- **Desktop and instrument software at HunterLab:** Flutter applications, browser-based remote viewing and control with WebRTC, Android camera integration, and kiosk-mode device settings.
-- **Full-stack delivery:** previously built a React and Electron desktop application at Continental, working directly with the client on requirements and feedback.
+[LinkedIn](https://www.linkedin.com/in/lukasharing/) · [yibe](https://yibe.fm) · [Work account](https://github.com/lukasharing-hl)
 
-## Selected public work
+## The playlist
 
-| Project | What it explores | Stack |
-| --- | --- | --- |
-| [Spotify → Apple Music](https://github.com/mrlukyman/spotify2applemusic) | A macOS utility that redirects Spotify links to Apple Music through a background shortcut. | Shell, macOS Shortcuts, Finicky |
-| [NFTSwap](https://github.com/mrlukyman/NFTSwap) | A full-stack prototype connecting a trading interface, GraphQL API, relational data model, and wallet integrations. | TypeScript, React, Apollo, Prisma, PostgreSQL |
-| [Space Explorer](https://github.com/mrlukyman/space-explorer) | An educational AR prototype for exploring space-themed 3D models. | SwiftUI, ARKit, RealityKit |
-| [Dijkstra visualiser](https://github.com/mrlukyman/dijkstra-algorithm-react) | An animated grid-based pathfinding experiment. | TypeScript, React |
+| Track | Project | What's playing |
+| :--- | :--- | :--- |
+| `01` | **[yibe](https://yibe.fm)** | A personalised music streaming project I'm co-founding. |
+| `02` | **[Spotify → Apple Music](https://github.com/mrlukyman/spotify2applemusic)** | A macOS utility for opening Spotify links in Apple Music. Shell, Shortcuts, Finicky. |
+| `03` | **[Flutter WebRTC · merged fix](https://github.com/flutter-webrtc/flutter-webrtc/pull/1854)** | Fixed screen-capture orientation for Android devices with landscape-native displays. |
+| `04` | **[NFTSwap](https://github.com/mrlukyman/NFTSwap)** | A full-stack trading prototype: React, GraphQL, Prisma, PostgreSQL, and wallet integrations. |
+| `05` | **[Space Explorer](https://github.com/mrlukyman/space-explorer)** | A small educational AR experiment built with SwiftUI, ARKit, and RealityKit. |
+| `06` | **[Dijkstra visualiser](https://github.com/mrlukyman/dijkstra-algorithm-react)** | Watching a shortest-path algorithm find its way across a grid. TypeScript + React. |
 
-## Open source
+## In the mix
 
-**[Merged: fix screen-capture orientation in Flutter WebRTC](https://github.com/flutter-webrtc/flutter-webrtc/pull/1854)**
+**Web** · TypeScript, React, Next.js  
+**Mobile & desktop** · React Native, Expo, Flutter, Dart, Electron, Kotlin  
+**Backend & data** · Convex, GraphQL, Firebase, Supabase, Prisma, PostgreSQL  
+**Shipping** · Native integrations, CI/CD, App Store & Google Play releases
 
-Fixed orientation detection on Android devices whose natural orientation is landscape, using display dimensions instead of rotation assumptions. The contribution includes testing notes for a 1280 × 800 embedded display.
+<details>
+<summary><strong>Liner notes — professional work</strong></summary>
 
-## Toolkit
+- **Digital Fireworks:** mobile and web development with React Native, Expo, and Next.js, plus backend services, native platform integrations, and release automation.
+- **HunterLab:** Flutter desktop and instrument software, remote viewing and control with WebRTC, Android camera integration, and kiosk-mode settings.
+- **Continental:** React and Electron desktop development, working directly with the client on requirements and feedback.
 
-- **Web:** TypeScript, React, Next.js
-- **Mobile and desktop:** React Native, Expo, Flutter, Dart, Electron, Kotlin
-- **Backend and data:** Convex, GraphQL, Supabase, Firebase, Prisma, PostgreSQL
-- **Delivery:** Git, CI/CD, App Store and Google Play releases
+Some of that work lives outside this account. My public projects above are a mix of experiments, utilities, and open-source contributions.
 
-Interested in software engineering opportunities where I can contribute across the stack and take responsibility for getting useful products into people's hands. [Connect with me on LinkedIn](https://www.linkedin.com/in/lukasharing/).
+</details>
+
+---
+
+Have something interesting to build? I'm interested in software engineering opportunities across the stack. **[Let's talk.](https://www.linkedin.com/in/lukasharing/)**
